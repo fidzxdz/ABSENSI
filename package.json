@@ -1,0 +1,16 @@
+{
+  "name": "absensi-wajah",
+  "version": "1.1.0",
+  "description": "Dashboard absensi",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "setup": "node scripts/download-vendor.js",
+    "start": "node server.js",
+    "reset-password": "node scripts/reset-password.js",
+    "test": "node scripts/test-api.js"
+  }
+}
